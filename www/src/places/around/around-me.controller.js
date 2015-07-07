@@ -25,3 +25,39 @@ angular.module('places')
 			});
 		};
 	});
+
+	var myApp = angular.module('myApp', ['uiGmapgoogle-maps']);
+
+myApp.factory("Markers", function(){
+  var Markers = [
+    {
+      "id": "0",
+      "coords": {
+        "latitude": "-17.9597",
+        "longitude": "42.5200"
+      },
+      "window": {
+        "title": "Hi there, OK"
+      }
+    },
+    {
+      "id": "1",
+      "coords": {
+        "latitude": "-15.9597",
+        "longitude": "44.7903"
+      },
+      "window" : {
+        "title": "Very good, indeed"
+      }
+    }
+  ];
+  return Markers;
+});
+
+myApp.controller("gMap",function($scope,Markers){
+  $scope.map = { 
+    center: { latitude: -18.766947, longitude: 46.869107 }, 
+    zoom: 4 
+  };
+  $scope.markers = Markers;
+});
