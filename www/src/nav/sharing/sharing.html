@@ -1,0 +1,70 @@
+<ion-side-menus enable-menu-with-back-views="true">
+
+    <!-- Right menu -->
+    <ion-side-menu side="right">
+
+    <ion-header-bar>
+            <h1 class="title">Menu</h1>
+        </ion-header-bar>
+        <ion-content>
+            <ion-list>
+                
+                <ion-item menu-close href="#/items">A propos</ion-item>
+                <ion-item menu-close href="#/markets">FAQ</ion-item>
+                <ion-item menu-close ng-click="login()">Conditions légales</ion-item>
+                <ion-item menu-close href="#/markets">Contact</ion-item>
+                <ion-item menu-close ng-click="login()">Logout</ion-item>
+
+            </ion-list>
+        </ion-content>
+        <!--<a class="item item-icon-left item-text-wrap" href="#">
+
+            <i class="icon ion-ionic"></i>
+            <h2>Hello Ionic</h2>
+            <p>Ready to be an hybrid developer with Cordova/Ionic/Angular ?</p>
+        </a>
+        <div class="padding">
+            <button class="button button-block button-assertive" ui-sref="login" menu-toggle="left">Logout</button>
+        </div>-->
+    </ion-side-menu>
+
+    <!-- Center content-->
+    <ion-side-menu-content>
+
+        <ng-include src="'src/nav/header/header.html'" ng-controller="HeaderCtrl"></ng-include>
+        <ng-include src="'src/nav/tabs/tabs.html'" ng-controller="TabsCtrl"></ng-include>
+    </ion-side-menu-content>
+</ion-side-menus>
+
+<!--<ion-side-menus enable-menu-with-back-views="false">
+    <ion-side-menu-content>
+        <ion-nav-bar>
+            <ion-nav-back-button>
+            </ion-nav-back-button>
+
+            <ion-nav-buttons side="left">
+                <button class="button-icon" menu-toggle="left">
+                <i class="material-icons">menu</i>
+                </button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+
+    <ion-nav-view name="pageContent"></ion-nav-view>
+    </ion-side-menu-content>
+
+    <ion-side-menu side="left">
+        <ion-header-bar>
+            <h1 class="title">Menu Title</h1>
+        </ion-header-bar>
+        <ion-content>
+            <ion-list>
+                
+                <ion-item menu-close href="#/items">List</ion-item>
+                <ion-item menu-close href="#/history">History</ion-item>
+                <ion-item menu-close href="#/markets">Markets</ion-item>
+                <ion-item menu-close ng-click="login()">Logout</ion-item>
+
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>-->

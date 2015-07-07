@@ -1,0 +1,597 @@
+[
+{
+	"nom":"Parc national de la montagne d'Ambre",
+	"lat":"-12.424101",
+	"lng":"49.108238",
+	"region":"7",
+	"type":"0,1,6",
+	"duree":"16,17,18",
+	"radius":"116580",
+	"type_top":"19",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+
+},
+{
+	"nom":"Nosy Be",
+	"lat":"-13.317195",
+	"lng":"48.253434",
+	"region":"8",
+	"type":"2,3",
+	"duree":"16,17,18",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"Freebeach.jpg"
+
+	
+},
+{
+	"nom":"Réserve naturelle de Lokobe",
+	"lat":"-13.399042",
+	"lng":"48.318204 ",
+	"region":"8",
+	"type":"0",
+	"duree":"16,17,18",
+	"type_top":"23",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+},
+
+{
+	"nom":"Les archipels de nosy Mitsio",
+	"lat":"-12.901117",
+	"lng":"48.600397 ",
+	"region":"8",
+	"type":"1",
+	"duree":"16,17,18",
+	"type_top":"23",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"nosymitsio.jpg"
+
+	
+},
+
+{
+	"nom":"Plage d'andilana",
+	"lat":"-13.2526440",
+	"lng":"48.1841460",
+	"region":"7",
+	"type":"2",
+	"duree":"16,17,18",
+	"radius":"116580",
+	"type_top":"19",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"Freebeach.jpg"
+},
+{
+	"nom":"Nosy sakatia, île volcanique",
+	"lat":"-13.301038",
+	"lng":"48.165109",
+	"region":"8",
+	"type":"1",
+	"duree":"16,17,18",
+	"type_top":"23"
+	
+},
+
+{
+	"nom":"Tsingy du Bemaraha",
+	"lat":"-18.456789",
+	"lng":"44.728802",
+	"region":"10",
+	"type":"1",
+	"duree":"16,17",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"tsingy.jpg"
+},
+{
+	"nom":"Plage mer d'émeraude",
+	"lat":"-12.182973",
+	"lng":"49.357087",
+	"region":"7",
+	"type":"2",
+	"duree":"16,17,18",
+	"radius":"116580",
+	"type_top":"19",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"Freebeach.jpg"
+},
+{
+	"nom":"Parc national Ankarafantsika",
+	"lat":"-16.116244",
+	"lng":"47.095899",
+	"region":"8",
+	"type":"0,6",
+	"duree":"16,17",
+	"radius":"116580",
+	"type_top":"21",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+},
+{
+	"nom":"Plage Amborovy et grand pavois",
+	"lat":"-15.650948",
+	"lng":"46.338813",
+	"region":"8",
+	"type":"2",
+	"duree":"16,17",
+	"radius":"116580",
+	"type_top":"21",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"Freebeach.jpg"
+
+},
+
+{
+	"nom":"Grotte Anjohibe",
+	"lat":"16.7333329",
+	"lng":"47.116667",
+	"region":"8",
+	"type":"1",
+	"duree":"16"
+},
+
+{
+	"nom":"Parc national Tsingy de namoroka",
+	"lat":"-16.470894",
+	"lng":"45.336946",
+	"region":"8",
+	"type":"0",
+	"duree":"6,17",
+	"type_top":"21",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+},
+{
+	"nom":"Descente de Tsiribihina",
+	"lat":"-19.7166868",
+	"lng":"44.528387",
+	"region":"10",
+	"type":"1",
+	"duree":"16",
+	"type_top":"21",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"descentetsiribihina.jpg"
+	
+},
+{
+	"nom":"Allée de baobab à Morondava",
+	"lat":"-20.249806",
+	"lng":"44.419393",
+	"region":"10",
+	"type":"0",
+	"duree":"16",
+	"topdestinyfamily":"19",
+	"type_top":"21",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"allebaobab.jpg"
+},
+{
+	"nom":"Plage Andavadoaka",
+	"lat":"-22.074869",
+	"lng":"43.242371",
+	"region":"10",
+	"type":"2",
+	"duree":"16",
+	"radius":"116580",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"Freebeach.jpg"
+
+	
+},
+{
+	"nom":"Parc national Kirindy-Mitea",
+	"lat":"-20.739766",
+	"lng":"44.172027",
+	"region":"10",
+	"type":"0,6",
+	"duree":"16",
+	"type_top":"23",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+
+},
+
+{
+	"nom":"Ifaty forest ",
+	"lat":"-22.75877",
+	"lng":"43.4450912",
+	"region":"13",
+	"type":"1",
+	"duree":"16",
+	"topgroup":"21",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+},
+{
+	"nom":"Parc national Isalo",
+	"lat":"-22.465454",
+	"lng":"45.261856",
+	"region":"13",
+	"type":"0,1,4,6",
+	"duree":"16,17",
+	"topdestinyfamily":"19",
+	"type_top":"23",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+},
+
+{
+	"nom":"Ilakaka",
+	"lat":" -22.6969782",
+	"lng":"45.2179989",
+	"region":"13",
+	"type":"1,4",
+	"duree":"16",
+	"type_top":"21",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"ilakaka.jpg"
+
+},
+{
+	"nom":"Andapa",
+	"lat":"-14.666279",
+	"lng":"49.652495",
+	"region":"9",
+	"type":"1",
+	"duree":"16",
+	"type_top":"21",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"plantationthe.jpg"
+},
+{
+	"nom":"Vohemar",
+	"lat":"-13.369213",
+	"lng":"50.002895",
+	"region":"9",
+	"type":"1",
+	"duree":"16",
+	"type_top":"21",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"plantationthe.jpg"
+},
+{
+	"nom":"Sambava",
+	"lat":"-14.267904",
+	"lng":"50.171503",
+	"region":"9",
+	"type":"1",
+	"duree":"16",
+	"type_top":"21",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"plantationthe.jpg"
+
+},
+{
+	"nom":"Ambilobe",
+	"lat":"-13.189266",
+	"lng":"49.0480964",
+	"region":"9",
+	"type":"1",
+	"duree":"16",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"plantationthe.jpg"
+},
+{
+	"nom":"Sainte-Marie",
+	"lat":"-16.9123187",
+	"lng":"49.9097729",
+	"region":"9",
+	"type":"0,1,2,3,4,5",
+	"duree":"16,17,18",
+	"radius":"116580",
+	"type_top":"21",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"Freebeach.jpg"
+
+},
+{
+	"nom":"Baie Antongila",
+	"lat":"-15.8158808",
+	"lng":"49.8842811",
+	"region":"9",
+	"type":"0",
+	"duree":"16",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"baiedAntongila.jpg"
+
+},
+{
+	"nom":"Ambodifotatra,la plus vieille église catholique de Madagascar",
+	"lat":"-17.000142",
+	"lng":"49.851183 ",
+	"region":"9",
+	"type":"1,4",
+	"duree":"16",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"cathedraleCatho.jpg"
+},
+{
+	"nom":"Plage Ankarana",
+	"lat":" -12.91688",
+	"lng":"49.14355",
+	"region":"9",
+	"type":"2",
+	"duree":"16",
+	"radius":"116580",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"Freebeach.jpg"
+
+},
+{
+	"nom":"Piscine naturelle Ambodiatafana",
+	"lat":"-14.9723461",
+	"lng":"47.2615635",
+	"region":"9",
+	"type":"3",
+	"duree":"16",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"piscineAmbodiatafana.jpg"
+
+},
+{
+	"nom":"Parc marin Nosy Atafana",
+	"lat":"-16.325",
+	"lng":"49.8452778",
+	"region":"9",
+	"type":"0",
+	"duree":"16",
+	"type_top":"23",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"nosyatafana.jpg"
+},
+{
+	"nom":"Parc national Marojejy",
+	"lat":"-14.44133",
+	"lng":"49.73908",
+	"region":"9",
+	"type":"0,1,6",
+	"duree":"16",
+	"radius":"116580",
+	"type_top":"23",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+},
+{
+	"nom":"Manambato",
+	"lat":"-13.6414122",
+	"lng":"49.437351 ",
+	"region":"9",
+	"type":"0,1",
+	"duree":"16"
+},
+{
+	"nom":"Palais Ambohimanga",
+	"lat":"-18.6972222",
+	"lng":"46.8647222",
+	"region":"11",
+	"type":"1,4",
+	"duree":"16",
+	"type_top":"23",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"ambohimanga2.jpg"
+	
+
+},
+{
+	"nom":"Cathédrale catholique Antananarivo",
+	"lat":"-18.8879433",
+	"lng":"47.5754621",
+	"region":"11",
+	"type":"1,4",
+	"duree":"16",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"cathedraleCatho.jpg"
+},
+{
+	"nom":"Croq farm Ivato",
+	"lat":"-19.866667",
+	"lng":"46.65",
+	"region":"11",
+	"type":"0,6",
+	"duree":"16",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"croqfarm.jpg"
+},
+{
+	"nom":"Artisanat digue Ivato",
+	"lat":"-18.8877292",
+	"lng":"47.5126075",
+	"region":"11",
+	"type":"1,4",
+	"duree":"16"
+},
+{
+	"nom":"Ampefy chute de la Lily",
+	"lat":"-19.039915",
+	"lng":"46.7351265",
+	"region":"11",
+	"type":"1",
+	"duree":"16",
+	"radius":"116580",
+	"type_top":"19",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"chutelily.jpg"
+},
+{
+	"nom":"Lac Itasy",
+	"lat":"-19.0552094",
+	"lng":"46.8278503",
+	"region":"11",
+	"type":"1",
+	"duree":"16",
+	"type_top":"21",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"lacitasy.jpg"
+},
+{
+	"nom":"Parc Andasibe",
+	"lat":"-17.660311",
+	"lng":"46.24398",
+	"region":"11",
+	"type":"0,6",
+	"duree":"16",
+	"radius":"116580",
+	"volontourisme":"6",
+	"type_top":"19",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+},
+{
+	"nom":"Marché Ambositra",
+	"lat":"-20.5365089",
+	"lng":"47.2479302",
+	"region":"12",
+	"type":"1,4",
+	"duree":"16",
+	"type_top":"23"
+},
+{
+	"nom":"Parc Anja",
+	"lat":"-21.85962",
+	"lng":"46.85827",
+	"region":"12",
+	"type":"0",
+	"duree":"16",
+	"type_top":"23",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+},
+{
+	"nom":"Parc Ranomafana",
+	"lat":"-21.320082",
+	"lng":"47.396393",
+	"region":"12",
+	"type":"0,2,6",
+	"duree":"16",
+	"radius":"116580",
+	"volontourisme":"6",
+	"type_top":"19",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+},
+{
+	"nom":"Mananjary",
+	"lat":"-21.2195098",
+	"lng":"48.3496844",
+	"region":"12",
+	"type":"1,4,6",
+	"duree":"16"
+},
+{
+	"nom":"Manakara",
+	"lat":"-22.1441729",
+	"lng":"48.0091568",
+	"region":"14",
+	"type":"1,4,5,6",
+	"duree":"16",
+	"type_top":"21"
+},
+
+{
+	"nom":"Parc national Andringitra",
+	"lat":"-22.22286",
+	"lng":"46.92909",
+	"region":"14",
+	"type":"0,4",
+	"duree":"16",
+	"type_top":"21",
+	"type_top":"19",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+},
+{
+	"nom":"Arboretum Antsokay",
+	"lat":"-23.413991",
+	"lng":"43.755297",
+	"region":"14,15",
+	"type":"0,4",
+	"duree":"16",
+	"volontourisme":"6",
+	"type_top":"19",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+},
+{
+	"nom":"Réserve spéciale de Beza-Mahafaly",
+	"lat":"-23.680137",
+	"lng":"44.583139 ",
+	"region":"15",
+	"type":"0,4",
+	"duree":"16",
+	"type_top":"21",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+},
+{
+	"nom":"Parc national Tsimanampatetsotsa",
+	"lat":"-24.145434",
+	"lng":"43.829099",
+	"region":"15",
+	"type":"0,4",
+	"duree":"16",
+	"typeprecis":"21",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+},
+{
+	"nom":"Ampanihy",
+	"lat":"-24.608835",
+	"lng":"44.4066257",
+	"region":"15",
+	"type":"0,1,4",
+	"duree":"16"
+},
+{
+	"nom":"Réserve spéciale du cap sainte-marie",
+	"lat":"-25.5958333",
+	"lng":"45.1391667",
+	"region":"15",
+	"type":"0,4",
+	"duree":"16",
+	"type_top":"21",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+},
+{
+	"nom":"Faux cap Betanty",
+	"lat":"-25.56727",
+	"lng":"45.528622",
+	"region":"15",
+	"type":"0,1",
+	"duree":"16",
+	"type_top":"23",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+},
+{
+	"nom":"Parc national d’Andohalela",
+	"lat":"-24.758307",
+	"lng":"46.767197",
+	"region":"15",
+	"type":"0,4",
+	"duree":"16",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+},
+{
+	"nom":"Réserve privée de berenty",
+	"lat":"-24.997954",
+	"lng":"46.331288",
+	"region":"15",
+	"type":"0,1,4",
+	"duree":"16",
+	"volontourisme":"6",
+	"type_top":"21",
+	"description":"Le faux-texte est, en imprimerie, un texte sans valeur sémantique,permettant de remplir des pages lors d'une mise en forme afin d'en calibrer le contenu en l'absence du texte définitif. Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente.",
+	"imgwindow":"foretropicale.jpg"
+},
+{
+	"nom":"Nosy lokaro",
+	"lat":"-24.9416667",
+	"lng":"47.1219444",
+	"region":"15",
+	"type":"0,1",
+	"duree":"16"
+
+}
+]
