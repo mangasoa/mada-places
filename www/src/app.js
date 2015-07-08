@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('places', ['ionic','firebase'])
+angular.module('places', ['ionic','firebase', 'uiGmapgoogle-maps'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {

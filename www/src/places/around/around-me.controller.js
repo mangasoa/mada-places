@@ -26,7 +26,7 @@ angular.module('places')
 		};
 	});
 
-	var myApp = angular.module('myApp', ['uiGmapgoogle-maps']);
+	/*var myApp = angular.module('myApp', ['uiGmapgoogle-maps']);
 
 myApp.factory("Markers", function(){
   var Markers = [
@@ -57,7 +57,7 @@ myApp.factory("Markers", function(){
 myApp.controller("gMap",function($scope,Markers){
   $scope.map = { 
     center: { latitude: -18.766947, longitude: 46.869107 }, 
-    zoom: 4 
+    zoom: 7 
   };
   $scope.markers = Markers;
-});
+});*/
