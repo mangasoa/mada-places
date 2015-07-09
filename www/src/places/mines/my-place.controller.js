@@ -1,64 +1,77 @@
 "use strict";
 
 angular.module('places')
-	.controller('MyPlaceCtrl', function($rootScope,$scope,$state) {
-
-		var list =[
+	.controller('MyPlaceCtrl', function($scope) {
+		var groups =[
 			{
-				name:'geneva',
-				description:'Cool place to see with great robots inside',
+				name:'Quand partir?',
+				description:'Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie addition ne ressemblent pas une seconde à du texte standard.',
 				image:'http://lorempicsum.com/futurama/100/100/1'
 			},
 			{
-				name:'geneva',
-				description:'Cool place to see with great robots inside',
+				name:'Avant le départ',
+				description:'Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie addition ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard.',
 				image:'http://lorempicsum.com/futurama/100/100/2'
 			},
 			{
-				name:'geneva',
+				name:'Culture',
 				description:'Cool place to see with great robots inside',
 				image:'http://lorempicsum.com/futurama/100/100/3'
 			},
 			{
-				name:'geneva',
+				name:'Hebergement',
 				description:'Cool place to see with great robots inside',
 				image:'http://lorempicsum.com/futurama/100/100/4'
 			},
 			{
-				name:'geneva',
+				name:'Transport',
 				description:'Cool place to see with great robots inside',
 				image:'http://lorempicsum.com/futurama/100/100/5'
 			},
 			{
-				name:'geneva',
+				name:'Devise',
 				description:'Cool place to see with great robots inside',
 				image:'http://lorempicsum.com/futurama/100/100/6'
 			},
 			{
-				name:'geneva',
+				name:'Partenaires',
 				description:'Cool place to see with great robots inside',
 				image:'http://lorempicsum.com/futurama/100/100/7'
 			},
 			{
-				name:'geneva',
+				name:'Vol',
 				description:'Cool place to see with great robots inside',
 				image:'http://lorempicsum.com/futurama/100/100/8'
-			},
-			{
-				name:'geneva',
-				description:'Cool place to see with great robots inside',
-				image:'http://lorempicsum.com/futurama/100/100/9'
 			}
 		];
+		$scope.groups = groups;
+  for (var i = 0; i < 8; i++) {
+  		//$scope.groups = groups.concat(groups.slice(0))
+    $scope.groups[i] = {
+     name: i,
+      items: []
+    };
+    for (var j = 0; j < 3; j++) {
+      $scope.groups[i].items.push(i + 'groups.description' +j );
+    }
+  }
 
-		//duplicate data to test performance
-		for (var i = 0; i < 5; i++) {
-			list = list.concat(list.slice(0))
-		}
-		//properties
-		$scope.list = list;
+  /*
+   * if given group is the selected group, deselect it
+   * else, select the given group
+   */
+  $scope.toggleGroup = function(group) {
+    if ($scope.isGroupShown(group)) {
+      $scope.shownGroup = null;
+    } else {
+      $scope.shownGroup = group;
+    }
+  };
+  $scope.isGroupShown = function(group) {
+    return $scope.shownGroup === group;
+  };
 
-		$scope.ok = true;
+		
 
 
 	});
