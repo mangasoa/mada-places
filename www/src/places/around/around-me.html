@@ -1,112 +1,11 @@
 <ion-view>
-  <ion-content class="has-header">
-  	<h2>Sélectionnez votre voyage</h2>
-  	<h3>Je recherche</h3> 
-            
-			<form id="form-recherche">
-            <input type="text" value="Date d'arrivée" id="datepicker" />
- 			 <input type="text" value="Date de départ" id="datepicker2"/>
- 			 <input type="text" value="Recherche avancée" id="plusfiltre"/>
-            <div>
-				<label for="TypeVoyage">Type de voyage</label>
-				<select name="TypeVoyage" id="TypeVoyage">
-					<option value="affichertous"></option>
-					<option value="0">Voyage écotouriste</option>
-					<option value="1">Vacances sportives</option>
-					<option value="2">Vacances à la mer</option>
-					<option value="3">Vacances bien être</option>
-					<option value="4">Voyage culturel/gastronomique</option>
-                    <option value="5">Voyage de luxe</option>
-                    <option value="6">Volontourisme</option>
-				</select>
-				</div>
-                
-                
-				<div>
-				<label for="choixregion">Choix de la Région</label>
-				<select name="choixregion" id="choixregion">
-                	<option value="affichertous"></option>
-                    <option value="7">Nord</option>
-					<option value="8">Nord-Ouest</option>
-					<option value="9">Nord-Est</option>
-                    <option value="10">Centre-Ouest</option>
-					<option value="11">Centre</option>
-                    <option value="12">Centre-Est</option>
-					<option value="13">Sud-Ouest</option>
-					<option value="14">Sud-Est</option>
-                    <option value="15">Sud</option>
-				</select>
-				</div>
-             
-                
-                
-                
-				
-                </br><br/>
-				
-				
-				<input type="submit" value="Rechercher"/>
-				</br>
+<ion-content class="has-header" scroll="true">
+		
+	<body ng-app="places" ng-controller="MadaMapCtrl">
+		<div id="map" data-tap-disabled="true"> </div>
+	</body>
 
-			</form>
 
-			<h3>Ou Précisement</h3>
-            
-            <form>
-            
-            <div>
-				<label for="Voyagefamille">Voyage en famille</label>
-				<select name="Voyagefamille" id="Voyagefamille">
-                	<option value="circuitRec"></option>
-					<option value="Topdestin">Top 3 destination</option>
-					<option value="circuitRec">Circuits recommandés</option>
-                    
-				</select>
-				</div>
-                
-                
-				<div>
-				<label for="choixregion2">Voyage en groupe</label>
-				<select name="choixregion2" id="choixregion2">
-                	<option value="nordest"></option>
-                	<option value="affichertous">Top 3 destination</option>
-					<option value="nordouest">Circuits recommandés</option>
-					
-				</select>
-				</div>
-             
-                
-                
-                <div>
-				<label for="dureeVoyage">Voyage en solo</label>
-				<select name="dureeVoyage" id="dureeVoyage">
-                	<option value="troismois"></option>
-					<option value="courte">Top 3 destination </option>
-					<option value="unmois">Circuits recommandés </option>
-					
-				</select>
-				</div>
-
-           		<div>
-				<label for="dureeVoyage">Les incontournables</label>
-				<select name="dureeVoyage" id="dureeVoyage">
-					<option value="16">Circuit 1 à 4 semaines </option>
-					<option value="17">Circuit 1 mois+ </option>
-					<option value="18">Circuit 3 mois+</option>
-				</select>
-				</div>
-				
-                </br><br/>
-				
-				<input type="submit" value="Rechercher"/>
-				</br>
-			</form>
-  	<!--<form name="myForm" novalidate>
-	<div class="form-group">
-  	
-  	</div>-->
-	
-    <map on-create="mapCreated(map)"></map>
 </ion-content>
-  
+
 </ion-view>

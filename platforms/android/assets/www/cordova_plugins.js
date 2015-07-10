@@ -39,6 +39,13 @@ module.exports = [
         "file": "plugins/cordova-plugin-whitelist/whitelist.js",
         "id": "cordova-plugin-whitelist.whitelist",
         "runs": true
+    },
+    {
+        "file": "plugins/cordova-plugin-datepicker/www/android/DatePicker.js",
+        "id": "cordova-plugin-datepicker.DatePicker",
+        "clobbers": [
+            "datePicker"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -48,7 +55,8 @@ module.exports.metadata =
     "cordova-plugin-console": "1.0.1",
     "cordova-plugin-device": "1.0.1",
     "cordova-plugin-splashscreen": "2.1.0",
-    "cordova-plugin-whitelist": "1.1.0"
+    "cordova-plugin-whitelist": "1.1.0",
+    "cordova-plugin-datepicker": "0.8.2"
 }
 // BOTTOM OF METADATA
 });
