@@ -25,19 +25,20 @@ angular.module('places')
 		for (var i=0; i<$scope.locations.length; i++)
 		{
 			var marker = new google.maps.Marker({
-				position: { lat: parseFloat($scope.locations[i].latitude), lng:parseFloat($scope.locations[i].longitude)},
+				position: { lat: parseFloat($scope.locations[i].lat), lng:parseFloat($scope.locations[i].lng)},
 				map: map,
 				title: $scope.locations[i].nom
 			});
+			
 		//$scope.locations[i].marker = marker;
 				//Element Ã  Afficher dans infowindow
-				//var typeTop="";
-				//if (location.type_top==19) 
-					//typeTop="Ideal pour famille";
-				//else if (location.type_top==21)
-					//typeTop="Ideal pour groupe";
-				//else if (location.type_top==23)
-					//typeTop="Ideal pour solo";
+				var typeTop="";
+				if (location.type_top==19) 
+					typeTop="Ideal pour famille";
+				else if (location.type_top==21)
+					typeTop="Ideal pour groupe";
+				else if (location.type_top==23)
+					typeTop="Ideal pour solo";
 				
 				
 				var content = '<div id="content">'+
