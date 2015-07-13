@@ -1,5 +1,14 @@
 /* custom styles in css */
+.homeimg{
+  text-align:center;
+  font-size: 16px;
+   padding-bottom: 5px;
+}
 
+/*.button.button-block{
+  width:50%;
+  margin:0 100px 20px;
+}*/
 .logo{
 	text-align:center;
 	font-size: 100px;
