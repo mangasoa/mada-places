@@ -4,10 +4,28 @@
   font-size: 16px;
    padding-bottom: 5px;
 }
+.icon.ion-ios-heart-outline{
+  margin:260px;
+}
+
+.icon.ion-ios-star-outline{
+  margin:280px;
+}
+
+.icon.ion-asterisk{
+  margin:260px;
+}
+
+.icon.ion-thumbsup{
+  margin:220px;
+}
+.icon.ion-icecream{
+  margin:240px;
+}
 
 /*.button.button-block{
   width:50%;
-  margin:0 100px 20px;
+  margin:0px 150px 20px;
 }*/
 .logo{
 	text-align:center;

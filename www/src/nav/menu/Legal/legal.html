@@ -1,0 +1,228 @@
+<!--<h4>Je recherche</h4> 
+
+<form id="form-recherche">
+    <input type="text" value="Date d'arrivée" id="datepicker" />
+    <input type="text" value="Date de départ" id="datepicker2"/>
+    <div>
+        <label for="TypeVoyage">Type de voyage</label>
+        <br/>
+        <select name="TypeVoyage" id="TypeVoyage">
+            <option value="affichertous"></option>
+            <option value="0">Voyage écotouriste</option>
+            <option value="1">Vacances sportives</option>
+            <option value="2">Vacances à la mer</option>
+            <option value="3">Vacances bien être</option>
+            <option value="4">Voyage culturel</option>
+            <option value="5">Voyage de luxe</option>
+            <option value="6">Volontourisme</option>
+        </select>
+    </div>
+   
+    <div>
+        <label for="choixregion">Choix de la Région</label>
+        <br/>
+        <select name="choixregion" id="choixregion">
+            <option value="affichertous"></option>
+            <option value="7">Nord</option>
+            <option value="8">Nord-Ouest</option>
+            <option value="9">Nord-Est</option>
+            <option value="10">Centre-Ouest</option>
+            <option value="11">Centre</option>
+            <option value="12">Centre-Est</option>
+            <option value="13">Sud-Ouest</option>
+            <option value="14">Sud-Est</option>
+            <option value="15">Sud</option>
+        </select>
+    </div>
+</br>
+
+
+<input type="submit" value="Rechercher"/>
+</br>
+
+</form>
+
+<h4>Ou Précisement</h4>
+
+<form>
+
+    <div>
+        <label for="Voyagefamille">Voyage en famille</label>
+        <br/>
+        <select name="Voyagefamille" id="Voyagefamille">
+            <option value="circuitRec"></option>
+            <option value="Topdestin">Top 3 destination</option>
+            <option value="circuitRec">Circuits recommandés</option>
+
+        </select>
+    </div>
+
+
+    <div>
+        <label for="choixregion2">Voyage en groupe</label>
+        <select name="choixregion2" id="choixregion2">
+            <option value="nordest"></option>
+            <option value="affichertous">Top 3 destination</option>
+            <option value="nordouest">Circuits recommandés</option>
+
+        </select>
+    </div>
+
+
+
+    <div>
+        <label for="dureeVoyage">Voyage en solo</label>
+        <br/>
+        <select name="dureeVoyage" id="dureeVoyage">
+            <option value="troismois"></option>
+            <option value="courte">Top 3 destination </option>
+            <option value="unmois">Circuits recommandés </option>
+
+        </select>
+    </div>
+    <div>
+        <label for="dureeVoyage">Les incontournables</label>
+        <br/>
+        <select name="dureeVoyage" id="dureeVoyage">
+            <option value="16">Circuit 1 à 4 semaines </option>
+            <option value="17">Circuit 1 mois+ </option>
+            <option value="18">Circuit 3 mois+</option>
+        </select>
+    </div>
+</br>
+<input type="submit" value="Rechercher"/>
+</br>
+</form>
+        </ion-content>
+        <!--<a class="item item-icon-left item-text-wrap" href="#">
+
+            <i class="icon ion-ionic"></i>
+            <h2>Hello Ionic</h2>
+            <p>Ready to be an hybrid developer with Cordova/Ionic/Angular ?</p>
+        </a>
+        <div class="padding">
+            <button class="button button-block button-assertive" ui-sref="login" menu-toggle="left">Logout</button>
+        </div>
+    </ion-side-menu>-->
+
+    <!-- Center content-->
+    <ion-side-menu-content>
+        <!--<ng-include src="'src/nav/sharing/sharing.html'" ng-controller="SharingCtrl"></ng-include>-->
+        <ng-include src="'src/nav/header/header.html'" ng-controller="HeaderCtrl"></ng-include>
+        <ng-include src="'src/nav/tabs/tabs.html'" ng-controller="TabsCtrl"></ng-include>
+    </ion-side-menu-content>
+</ion-side-menus>
+
+<!--<ion-side-menus enable-menu-with-back-views="false">
+    <ion-side-menu-content>
+        <ion-nav-bar>
+            <ion-nav-back-button>
+            </ion-nav-back-button>
+
+            <ion-nav-buttons side="left">
+                <button class="button-icon" menu-toggle="left">
+                <i class="material-icons">menu</i>
+                </button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+
+    <ion-nav-view name="pageContent"></ion-nav-view>
+    </ion-side-menu-content>
+
+    <ion-side-menu side="left">
+        <ion-header-bar>
+            <h1 class="title">Menu Title</h1>
+        </ion-header-bar>
+        <ion-content>
+            <ion-list>
+                
+                <ion-item menu-close href="#/items">List</ion-item>
+                <ion-item menu-close href="#/history">History</ion-item>
+                <ion-item menu-close href="#/markets">Markets</ion-item>
+                <ion-item menu-close ng-click="login()">Logout</ion-item>
+
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>-->
+
+
+<!--BEST Content-->
+<ion-side-menus enable-menu-with-back-views="true">
+
+    <!-- Left menu -->
+    <ion-side-menu-content>
+
+   
+        <ion-nav-bar class="bar-stable nav-title-slide-ios7">
+            <ion-nav-back-button>
+            </ion-nav-back-button>
+
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+                </button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent1"></ion-nav-view>
+   
+    
+
+    <ion-header-bar>
+            <h1 class="title">Sélectionnez votre voyage</h1>
+        </ion-header-bar>
+         <ion-side-menu side="left">
+            <ion-list>
+                
+                <ion-item menu-close href="#/items">A propos</ion-item>
+                <ion-item menu-close href="#/markets">FAQ</ion-item>
+                <ion-item menu-close ng-click="login()">Conditions légales</ion-item>
+                <ion-item menu-close href="#/markets">Contact</ion-item>
+                <ion-item menu-close ng-click="login()">Logout</ion-item>
+
+            </ion-list>
+       
+    </ion-side-menu>
+ </ion-content>
+
+ <!--Right menu
+
+ <ion-side-menu-content side="right">
+        <ion-nav-bar class="bar-stable nav-title-slide-ios7">
+            <ion-nav-back-button>
+            </ion-nav-back-button>
+
+            <ion-nav-buttons side="right">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="right">
+                </button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent2"></ion-nav-view>
+<ion-side-menu-content>
+
+    <ion-side-menu side="right">
+
+    <ion-header-bar>
+            <h1 class="title">Sélectionnez votre voyage</h1>
+        </ion-header-bar>
+        <ion-content>
+            <ion-list>
+                
+                <ion-item menu-close href="#/items">A propos</ion-item>
+                <ion-item menu-close href="#/markets">FAQ</ion-item>
+                <ion-item menu-close ng-click="login()">Conditions légales</ion-item>
+                <ion-item menu-close href="#/markets">Contact</ion-item>
+                <ion-item menu-close ng-click="login()">Logout</ion-item>
+
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+     <!--Center content-->
+    <ion-side-menu-content>
+        <!--<ng-include src="'src/nav/sharing/sharing.html'" ng-controller="SharingCtrl"></ng-include>-->
+        <ng-include src="'src/nav/header/header.html'" ng-controller="HeaderCtrl"></ng-include>
+        <ng-include src="'src/nav/tabs/tabs.html'" ng-controller="TabsCtrl"></ng-include>
+    </ion-side-menu-content>
+
+</ion-side-menus>
+
+-->

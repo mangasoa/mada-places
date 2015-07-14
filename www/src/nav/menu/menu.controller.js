@@ -10,7 +10,7 @@ angular.module('places')
 			LoginService.logout()
 				.then(function(){
 					
-					$ionicSideMenuDelegate.toggleRight();
+					$ionicSideMenuDelegate.toggleLeft();
 					$state.go('login');
 
 				});
@@ -35,4 +35,74 @@ angular.module('places')
         return q.promise;
       }
     };
-  }]);*/
+  }]);
+
+angular.module('places')
+	.config(function ($stateProvider,$urlRouterProvider) {
+		$stateProvider
+		
+		 //Page a propos
+		 .state('apropos', {
+		 	url:"/apropos",
+		 	abstract: true,
+		 	data:{
+		 		tittle:"A propos"
+		 	},
+		 	views:{
+		 		'avantvoyage':{
+		 			templateUrl: "src/nav/menu/Apropos/apropos.html"
+		 		}
+		 	}
+		 })
+		//navigation pour aller à la page avant le voyage
+		 .state('avantvoyage', {
+		 	url:"/avantvoyage",
+		 	data:{
+		 		tittle:"Information pratique"
+		 	},
+		 	views:{
+		 		'avantvoyage':{
+		 			templateUrl:'src/places/add/add-place.html'
+		 		}
+		 	}
+		 }) 
+
+		 //navigation pour aller FAQ
+		 .state('faq', {
+		 	url:"/faq",
+		 	data:{
+		 		title:"Frequented Asked Questions"
+		 	},
+		 	views: {
+		 		'faq':{
+		 			templateUrl: 'src/nav/menu/Faq/faq.html'
+		 		}
+		 	}
+		 })
+		 
+		 //navigation pour aller à la page Conditions légales
+		 .state('legal', {
+		 	url:'/legal',
+		 	data:{
+		 		tittle:"Conditions légales"
+		 	},
+		 	views:{
+		 		'legal':{
+		 			templateUrl:'src/nav/menu/Legal/legal.html'
+		 		}
+		 	}
+		 })
+		 //navigation pour aller à la page contact
+		 .state('contact', {
+		 	url:'/contact',
+		 	data:{
+		 		tittle:"Contactez-nous"
+		 	},
+		 	views: {
+		 		'tab-friends': {
+		 			templateUrl:'src/nav/menu/Contact/contact.html'
+		 		}
+		 	}
+		 })
+	});
+*/
